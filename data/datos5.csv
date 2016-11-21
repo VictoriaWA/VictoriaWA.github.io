@@ -1,0 +1,281 @@
+Store,Category,SalesP,Conversion,StarP,Eficiencia,group,month
+Mall Parque Arauco,SalesPBueno,21455.4318,16.07009852,14.30164969,0.09,high,Junio
+Mall Parque Arauco,ConversionBueno,21455.4318,16.07009852,14.30164969,0.09,high,Junio
+Mall Parque Arauco,StarRegular,21455.4318,16.07009852,14.30164969,0.09,medium,Junio
+Mall Parque Arauco,EficienciaRegular,21455.4318,16.07009852,14.30164969,0.09,medium,Junio
+Mall Parque Arauco,SalesPBueno,17400.160490000002,15.02806228,11.62021058,0.07,high,Julio
+Mall Parque Arauco,ConversionRegular,17400.160490000002,15.02806228,11.62021058,0.07,medium,Julio
+Mall Parque Arauco,StarMalo,17400.160490000002,15.02806228,11.62021058,0.07,low,Julio
+Mall Parque Arauco,EficienciaBueno,17400.160490000002,15.02806228,11.62021058,0.07,high,Julio
+Mall Parque Arauco,SalesPBueno,22606.98605,18.49377049,19.63005824,0.09,high,Agosto
+Mall Parque Arauco,ConversionBueno,22606.98605,18.49377049,19.63005824,0.09,high,Agosto
+Mall Parque Arauco,StarRegular,22606.98605,18.49377049,19.63005824,0.09,medium,Agosto
+Mall Parque Arauco,EficienciaRegular,22606.98605,18.49377049,19.63005824,0.09,medium,Agosto
+Mall Parque Arauco,SalesPBueno,23252.31687,20.02740426,18.28291128,0.1,high,Septiembre
+Mall Parque Arauco,ConversionBueno,23252.31687,20.02740426,18.28291128,0.1,high,Septiembre
+Mall Parque Arauco,StarRegular,23252.31687,20.02740426,18.28291128,0.1,medium,Septiembre
+Mall Parque Arauco,EficienciaRegular,23252.31687,20.02740426,18.28291128,0.1,medium,Septiembre
+Mall Parque Arauco,SalesPBueno,21814.73303,17.08400763,18.11137214,0.08,high,Octubre
+Mall Parque Arauco,ConversionBueno,21814.73303,17.08400763,18.11137214,0.08,high,Octubre
+Mall Parque Arauco,StarRegular,21814.73303,17.08400763,18.11137214,0.08,medium,Octubre
+Mall Parque Arauco,EficienciaBueno,21814.73303,17.08400763,18.11137214,0.08,high,Octubre
+Mall Marina Arauco,SalesPBueno,19766.142190000002,17.56430168,25.51360236,0.15,high,Junio
+Mall Marina Arauco,ConversionBueno,19766.142190000002,17.56430168,25.51360236,0.15,high,Junio
+Mall Marina Arauco,StarBueno,19766.142190000002,17.56430168,25.51360236,0.15,high,Junio
+Mall Marina Arauco,EficienciaRegular,19766.142190000002,17.56430168,25.51360236,0.15,medium,Junio
+Mall Marina Arauco,SalesPBueno,25794.0683,20.91197674,24.23438203,0.09,high,Julio
+Mall Marina Arauco,ConversionBueno,25794.0683,20.91197674,24.23438203,0.09,high,Julio
+Mall Marina Arauco,StarBueno,25794.0683,20.91197674,24.23438203,0.09,high,Julio
+Mall Marina Arauco,EficienciaRegular,25794.0683,20.91197674,24.23438203,0.09,medium,Julio
+Mall Marina Arauco,SalesPBueno,17383.39995,15.55200893,15.70409772,0.12,high,Agosto
+Mall Marina Arauco,ConversionRegular,17383.39995,15.55200893,15.70409772,0.12,medium,Agosto
+Mall Marina Arauco,StarRegular,17383.39995,15.55200893,15.70409772,0.12,medium,Agosto
+Mall Marina Arauco,EficienciaRegular,17383.39995,15.55200893,15.70409772,0.12,medium,Agosto
+Mall Marina Arauco,SalesPRegular,15681.493680000001,15.53252101,15.17834676,0.11,medium,Septiembre
+Mall Marina Arauco,ConversionRegular,15681.493680000001,15.53252101,15.17834676,0.11,medium,Septiembre
+Mall Marina Arauco,StarRegular,15681.493680000001,15.53252101,15.17834676,0.11,medium,Septiembre
+Mall Marina Arauco,EficienciaRegular,15681.493680000001,15.53252101,15.17834676,0.11,medium,Septiembre
+Mall Marina Arauco,SalesPRegular,14214.45061,12.55310606,12.079934199999999,0.09,medium,Octubre
+Mall Marina Arauco,ConversionRegular,14214.45061,12.55310606,12.079934199999999,0.09,medium,Octubre
+Mall Marina Arauco,StarMalo,14214.45061,12.55310606,12.079934199999999,0.09,low,Octubre
+Mall Marina Arauco,EficienciaRegular,14214.45061,12.55310606,12.079934199999999,0.09,medium,Octubre
+Mall Rancagua,SalesPRegular,7568.420865000001,10.83715116,14.12609196,0.15,medium,Junio
+Mall Rancagua,ConversionRegular,7568.420865000001,10.83715116,14.12609196,0.15,medium,Junio
+Mall Rancagua,StarRegular,7568.420865000001,10.83715116,14.12609196,0.15,medium,Junio
+Mall Rancagua,EficienciaRegular,7568.420865000001,10.83715116,14.12609196,0.15,medium,Junio
+Mall Rancagua,SalesPRegular,7998.141034,9.911916667,12.82255673,0.08,medium,Julio
+Mall Rancagua,ConversionMalo,7998.141034,9.911916667,12.82255673,0.08,low,Julio
+Mall Rancagua,StarRegular,7998.141034,9.911916667,12.82255673,0.08,medium,Julio
+Mall Rancagua,EficienciaBueno,7998.141034,9.911916667,12.82255673,0.08,high,Julio
+Mall Rancagua,SalesPRegular,8473.805097,11.03,15.23028601,0.12,medium,Agosto
+Mall Rancagua,ConversionRegular,8473.805097,11.03,15.23028601,0.12,medium,Agosto
+Mall Rancagua,StarRegular,8473.805097,11.03,15.23028601,0.12,medium,Agosto
+Mall Rancagua,EficienciaRegular,8473.805097,11.03,15.23028601,0.12,medium,Agosto
+Mall Rancagua,SalesPRegular,7905.62566,11.86031111,12.36853031,0.11,medium,Septiembre
+Mall Rancagua,ConversionRegular,7905.62566,11.86031111,12.36853031,0.11,medium,Septiembre
+Mall Rancagua,StarMalo,7905.62566,11.86031111,12.36853031,0.11,low,Septiembre
+Mall Rancagua,EficienciaRegular,7905.62566,11.86031111,12.36853031,0.11,medium,Septiembre
+Mall Rancagua,SalesPRegular,8913.351095,12.30896552,12.42451113,0.11,medium,Octubre
+Mall Rancagua,ConversionRegular,8913.351095,12.30896552,12.42451113,0.11,medium,Octubre
+Mall Rancagua,StarMalo,8913.351095,12.30896552,12.42451113,0.11,low,Octubre
+Mall Rancagua,EficienciaRegular,8913.351095,12.30896552,12.42451113,0.11,medium,Octubre
+Jumbo Rancagua,SalesPRegular,16978.05409,16.22265734,25.65639257,0.19,medium,Junio
+Jumbo Rancagua,ConversionBueno,16978.05409,16.22265734,25.65639257,0.19,high,Junio
+Jumbo Rancagua,StarBueno,16978.05409,16.22265734,25.65639257,0.19,high,Junio
+Jumbo Rancagua,EficienciaRegular,16978.05409,16.22265734,25.65639257,0.19,medium,Junio
+Jumbo Rancagua,SalesPRegular,16332.73004,14.93961722,21.07306711,0.11,medium,Julio
+Jumbo Rancagua,ConversionRegular,16332.73004,14.93961722,21.07306711,0.11,medium,Julio
+Jumbo Rancagua,StarBueno,16332.73004,14.93961722,21.07306711,0.11,high,Julio
+Jumbo Rancagua,EficienciaRegular,16332.73004,14.93961722,21.07306711,0.11,medium,Julio
+Jumbo Rancagua,SalesPBueno,18956.78592,18.09385542,26.17159725,0.13,high,Agosto
+Jumbo Rancagua,ConversionBueno,18956.78592,18.09385542,26.17159725,0.13,high,Agosto
+Jumbo Rancagua,StarBueno,18956.78592,18.09385542,26.17159725,0.13,high,Agosto
+Jumbo Rancagua,EficienciaRegular,18956.78592,18.09385542,26.17159725,0.13,medium,Agosto
+Jumbo Rancagua,SalesPBueno,18590.98231,19.07639344,21.76751767,0.13,high,Septiembre
+Jumbo Rancagua,ConversionBueno,18590.98231,19.07639344,21.76751767,0.13,high,Septiembre
+Jumbo Rancagua,StarBueno,18590.98231,19.07639344,21.76751767,0.13,high,Septiembre
+Jumbo Rancagua,EficienciaRegular,18590.98231,19.07639344,21.76751767,0.13,medium,Septiembre
+Jumbo Rancagua,SalesPRegular,14524.201169999998,15.55180412,23.86167942,0.15,medium,Octubre
+Jumbo Rancagua,ConversionRegular,14524.201169999998,15.55180412,23.86167942,0.15,medium,Octubre
+Jumbo Rancagua,StarBueno,14524.201169999998,15.55180412,23.86167942,0.15,high,Octubre
+Jumbo Rancagua,EficienciaRegular,14524.201169999998,15.55180412,23.86167942,0.15,medium,Octubre
+Mall Plaza La Serena,SalesPRegular,10338.29061,10.43041176,11.89946434,0.19,medium,Junio
+Mall Plaza La Serena,ConversionMalo,10338.29061,10.43041176,11.89946434,0.19,low,Junio
+Mall Plaza La Serena,StarMalo,10338.29061,10.43041176,11.89946434,0.19,low,Junio
+Mall Plaza La Serena,EficienciaRegular,10338.29061,10.43041176,11.89946434,0.19,medium,Junio
+Mall Plaza La Serena,SalesPRegular,11609.30477,11.80740586,12.21761836,0.1,medium,Julio
+Mall Plaza La Serena,ConversionRegular,11609.30477,11.80740586,12.21761836,0.1,medium,Julio
+Mall Plaza La Serena,StarMalo,11609.30477,11.80740586,12.21761836,0.1,low,Julio
+Mall Plaza La Serena,EficienciaRegular,11609.30477,11.80740586,12.21761836,0.1,medium,Julio
+Mall Plaza La Serena,SalesPRegular,9227.112661,9.770779221,14.62134378,0.13,medium,Agosto
+Mall Plaza La Serena,ConversionMalo,9227.112661,9.770779221,14.62134378,0.13,low,Agosto
+Mall Plaza La Serena,StarRegular,9227.112661,9.770779221,14.62134378,0.13,medium,Agosto
+Mall Plaza La Serena,EficienciaRegular,9227.112661,9.770779221,14.62134378,0.13,medium,Agosto
+Mall Plaza La Serena,SalesPRegular,9433.464808,10.3644843,12.22173376,0.15,medium,Septiembre
+Mall Plaza La Serena,ConversionMalo,9433.464808,10.3644843,12.22173376,0.15,low,Septiembre
+Mall Plaza La Serena,StarMalo,9433.464808,10.3644843,12.22173376,0.15,low,Septiembre
+Mall Plaza La Serena,EficienciaRegular,9433.464808,10.3644843,12.22173376,0.15,medium,Septiembre
+Mall Plaza La Serena,SalesPRegular,7447.094105,8.840795455,8.960075456,0.13,medium,Octubre
+Mall Plaza La Serena,ConversionMalo,7447.094105,8.840795455,8.960075456,0.13,low,Octubre
+Mall Plaza La Serena,StarMalo,7447.094105,8.840795455,8.960075456,0.13,low,Octubre
+Mall Plaza La Serena,EficienciaRegular,7447.094105,8.840795455,8.960075456,0.13,medium,Octubre
+Mall Plaza Vespucio,SalesPRegular,10837.95585,10.96505435,13.26146724,0.16,medium,Junio
+Mall Plaza Vespucio,ConversionRegular,10837.95585,10.96505435,13.26146724,0.16,medium,Junio
+Mall Plaza Vespucio,StarRegular,10837.95585,10.96505435,13.26146724,0.16,medium,Junio
+Mall Plaza Vespucio,EficienciaRegular,10837.95585,10.96505435,13.26146724,0.16,medium,Junio
+Mall Plaza Vespucio,SalesPRegular,11596.228490000001,12.51506993,13.75021101,0.09,medium,Julio
+Mall Plaza Vespucio,ConversionRegular,11596.228490000001,12.51506993,13.75021101,0.09,medium,Julio
+Mall Plaza Vespucio,StarRegular,11596.228490000001,12.51506993,13.75021101,0.09,medium,Julio
+Mall Plaza Vespucio,EficienciaRegular,11596.228490000001,12.51506993,13.75021101,0.09,medium,Julio
+Mall Plaza Vespucio,SalesPRegular,12309.33615,12.76163347,15.26603039,0.11,medium,Agosto
+Mall Plaza Vespucio,ConversionRegular,12309.33615,12.76163347,15.26603039,0.11,medium,Agosto
+Mall Plaza Vespucio,StarRegular,12309.33615,12.76163347,15.26603039,0.11,medium,Agosto
+Mall Plaza Vespucio,EficienciaRegular,12309.33615,12.76163347,15.26603039,0.11,medium,Agosto
+Mall Plaza Vespucio,SalesPRegular,13730.303999999998,16.09405405,18.02283531,0.11,medium,Septiembre
+Mall Plaza Vespucio,ConversionBueno,13730.303999999998,16.09405405,18.02283531,0.11,high,Septiembre
+Mall Plaza Vespucio,StarRegular,13730.303999999998,16.09405405,18.02283531,0.11,medium,Septiembre
+Mall Plaza Vespucio,EficienciaRegular,13730.303999999998,16.09405405,18.02283531,0.11,medium,Septiembre
+Mall Plaza Vespucio,SalesPRegular,13274.901909999999,14.530284699999997,15.91155016,0.1,medium,Octubre
+Mall Plaza Vespucio,ConversionRegular,13274.901909999999,14.530284699999997,15.91155016,0.1,medium,Octubre
+Mall Plaza Vespucio,StarRegular,13274.901909999999,14.530284699999997,15.91155016,0.1,medium,Octubre
+Mall Plaza Vespucio,EficienciaRegular,13274.901909999999,14.530284699999997,15.91155016,0.1,medium,Octubre
+Mall Arauco Maipu Ii,SalesPRegular,8507.052699,12.63709091,14.51401346,0.14,medium,Junio
+Mall Arauco Maipu Ii,ConversionRegular,8507.052699,12.63709091,14.51401346,0.14,medium,Junio
+Mall Arauco Maipu Ii,StarRegular,8507.052699,12.63709091,14.51401346,0.14,medium,Junio
+Mall Arauco Maipu Ii,EficienciaRegular,8507.052699,12.63709091,14.51401346,0.14,medium,Junio
+Mall Arauco Maipu Ii,SalesPRegular,7457.513247,10.16895582,13.53519364,0.11,medium,Julio
+Mall Arauco Maipu Ii,ConversionMalo,7457.513247,10.16895582,13.53519364,0.11,low,Julio
+Mall Arauco Maipu Ii,StarRegular,7457.513247,10.16895582,13.53519364,0.11,medium,Julio
+Mall Arauco Maipu Ii,EficienciaRegular,7457.513247,10.16895582,13.53519364,0.11,medium,Julio
+Mall Arauco Maipu Ii,SalesPRegular,8708.305171,11.77752381,13.03842024,0.12,medium,Agosto
+Mall Arauco Maipu Ii,ConversionRegular,8708.305171,11.77752381,13.03842024,0.12,medium,Agosto
+Mall Arauco Maipu Ii,StarRegular,8708.305171,11.77752381,13.03842024,0.12,medium,Agosto
+Mall Arauco Maipu Ii,EficienciaRegular,8708.305171,11.77752381,13.03842024,0.12,medium,Agosto
+Mall Arauco Maipu Ii,SalesPRegular,9969.295754,17.54767544,18.98057937,0.12,medium,Septiembre
+Mall Arauco Maipu Ii,ConversionBueno,9969.295754,17.54767544,18.98057937,0.12,high,Septiembre
+Mall Arauco Maipu Ii,StarRegular,9969.295754,17.54767544,18.98057937,0.12,medium,Septiembre
+Mall Arauco Maipu Ii,EficienciaRegular,9969.295754,17.54767544,18.98057937,0.12,medium,Septiembre
+Mall Arauco Maipu Ii,SalesPRegular,8363.727782,13.78134387,15.59141791,0.12,medium,Octubre
+Mall Arauco Maipu Ii,ConversionRegular,8363.727782,13.78134387,15.59141791,0.12,medium,Octubre
+Mall Arauco Maipu Ii,StarRegular,8363.727782,13.78134387,15.59141791,0.12,medium,Octubre
+Mall Arauco Maipu Ii,EficienciaRegular,8363.727782,13.78134387,15.59141791,0.12,medium,Octubre
+Eurocentro,SalesPRegular,11028.546620000001,11.25013514,15.68290763,0.17,medium,Junio
+Eurocentro,ConversionRegular,11028.546620000001,11.25013514,15.68290763,0.17,medium,Junio
+Eurocentro,StarRegular,11028.546620000001,11.25013514,15.68290763,0.17,medium,Junio
+Eurocentro,EficienciaRegular,11028.546620000001,11.25013514,15.68290763,0.17,medium,Junio
+Eurocentro,SalesPRegular,11157.07933,11.70407216,15.06178747,0.12,medium,Julio
+Eurocentro,ConversionRegular,11157.07933,11.70407216,15.06178747,0.12,medium,Julio
+Eurocentro,StarRegular,11157.07933,11.70407216,15.06178747,0.12,medium,Julio
+Eurocentro,EficienciaRegular,11157.07933,11.70407216,15.06178747,0.12,medium,Julio
+Eurocentro,SalesPRegular,14814.2952,15.28977273,21.39508514,0.14,medium,Agosto
+Eurocentro,ConversionRegular,14814.2952,15.28977273,21.39508514,0.14,medium,Agosto
+Eurocentro,StarBueno,14814.2952,15.28977273,21.39508514,0.14,high,Agosto
+Eurocentro,EficienciaRegular,14814.2952,15.28977273,21.39508514,0.14,medium,Agosto
+Eurocentro,SalesPBueno,19535.30714,22.3434715,25.56838297,0.12,high,Septiembre
+Eurocentro,ConversionBueno,19535.30714,22.3434715,25.56838297,0.12,high,Septiembre
+Eurocentro,StarBueno,19535.30714,22.3434715,25.56838297,0.12,high,Septiembre
+Eurocentro,EficienciaRegular,19535.30714,22.3434715,25.56838297,0.12,medium,Septiembre
+Eurocentro,SalesPRegular,13620.827469999998,14.77628415,18.24919954,0.13,medium,Octubre
+Eurocentro,ConversionRegular,13620.827469999998,14.77628415,18.24919954,0.13,medium,Octubre
+Eurocentro,StarRegular,13620.827469999998,14.77628415,18.24919954,0.13,medium,Octubre
+Eurocentro,EficienciaRegular,13620.827469999998,14.77628415,18.24919954,0.13,medium,Octubre
+Mall Alto Las Condes II,SalesPRegular,15322.41149,14.42296651,12.29126985,0.1,medium,Junio
+Mall Alto Las Condes II,ConversionRegular,15322.41149,14.42296651,12.29126985,0.1,medium,Junio
+Mall Alto Las Condes II,StarMalo,15322.41149,14.42296651,12.29126985,0.1,low,Junio
+Mall Alto Las Condes II,EficienciaRegular,15322.41149,14.42296651,12.29126985,0.1,medium,Junio
+Mall Alto Las Condes II,SalesPRegular,12856.31767,12.26741935,9.343404697999999,0.07,medium,Julio
+Mall Alto Las Condes II,ConversionRegular,12856.31767,12.26741935,9.343404697999999,0.07,medium,Julio
+Mall Alto Las Condes II,StarMalo,12856.31767,12.26741935,9.343404697999999,0.07,low,Julio
+Mall Alto Las Condes II,EficienciaBueno,12856.31767,12.26741935,9.343404697999999,0.07,high,Julio
+Mall Alto Las Condes II,SalesPBueno,18857.382169999997,17.563663000000002,14.73435402,0.08,high,Agosto
+Mall Alto Las Condes II,ConversionBueno,18857.382169999997,17.563663000000002,14.73435402,0.08,high,Agosto
+Mall Alto Las Condes II,StarRegular,18857.382169999997,17.563663000000002,14.73435402,0.08,medium,Agosto
+Mall Alto Las Condes II,EficienciaBueno,18857.382169999997,17.563663000000002,14.73435402,0.08,high,Agosto
+Mall Alto Las Condes II,SalesPBueno,23602.80483,23.84784906,18.02593872,0.09,high,Septiembre
+Mall Alto Las Condes II,ConversionBueno,23602.80483,23.84784906,18.02593872,0.09,high,Septiembre
+Mall Alto Las Condes II,StarRegular,23602.80483,23.84784906,18.02593872,0.09,medium,Septiembre
+Mall Alto Las Condes II,EficienciaRegular,23602.80483,23.84784906,18.02593872,0.09,medium,Septiembre
+Mall Alto Las Condes II,SalesPRegular,13423.090219999998,13.67112281,12.62678472,0.07,medium,Octubre
+Mall Alto Las Condes II,ConversionRegular,13423.090219999998,13.67112281,12.62678472,0.07,medium,Octubre
+Mall Alto Las Condes II,StarRegular,13423.090219999998,13.67112281,12.62678472,0.07,medium,Octubre
+Mall Alto Las Condes II,EficienciaBueno,13423.090219999998,13.67112281,12.62678472,0.07,high,Octubre
+Mall Costanera,SalesPRegular,14119.08654,14.11059633,14.26832386,0.13,medium,Junio
+Mall Costanera,ConversionRegular,14119.08654,14.11059633,14.26832386,0.13,medium,Junio
+Mall Costanera,StarRegular,14119.08654,14.11059633,14.26832386,0.13,medium,Junio
+Mall Costanera,EficienciaRegular,14119.08654,14.11059633,14.26832386,0.13,medium,Junio
+Mall Costanera,SalesPRegular,15002.0773,13.82396721,16.82685354,0.08,medium,Julio
+Mall Costanera,ConversionRegular,15002.0773,13.82396721,16.82685354,0.08,medium,Julio
+Mall Costanera,StarRegular,15002.0773,13.82396721,16.82685354,0.08,medium,Julio
+Mall Costanera,EficienciaBueno,15002.0773,13.82396721,16.82685354,0.08,high,Julio
+Mall Costanera,SalesPRegular,11038.281009999999,11.14478723,11.94087385,0.1,medium,Agosto
+Mall Costanera,ConversionRegular,11038.281009999999,11.14478723,11.94087385,0.1,medium,Agosto
+Mall Costanera,StarMalo,11038.281009999999,11.14478723,11.94087385,0.1,low,Agosto
+Mall Costanera,EficienciaRegular,11038.281009999999,11.14478723,11.94087385,0.1,medium,Agosto
+Mall Costanera,SalesPRegular,11466.51367,11.01288889,12.27866855,0.1,medium,Septiembre
+Mall Costanera,ConversionRegular,11466.51367,11.01288889,12.27866855,0.1,medium,Septiembre
+Mall Costanera,StarMalo,11466.51367,11.01288889,12.27866855,0.1,low,Septiembre
+Mall Costanera,EficienciaRegular,11466.51367,11.01288889,12.27866855,0.1,medium,Septiembre
+Mall Costanera,SalesPRegular,11345.34455,11.38518033,13.53291093,0.09,medium,Octubre
+Mall Costanera,ConversionRegular,11345.34455,11.38518033,13.53291093,0.09,medium,Octubre
+Mall Costanera,StarRegular,11345.34455,11.38518033,13.53291093,0.09,medium,Octubre
+Mall Costanera,EficienciaRegular,11345.34455,11.38518033,13.53291093,0.09,medium,Octubre
+Jumbo Portal Temuco,SalesPMalo,7157.859001999999,11.11533333,17.77873016,0.25,low,Junio
+Jumbo Portal Temuco,ConversionRegular,7157.859001999999,11.11533333,17.77873016,0.25,medium,Junio
+Jumbo Portal Temuco,StarRegular,7157.859001999999,11.11533333,17.77873016,0.25,medium,Junio
+Jumbo Portal Temuco,EficienciaMalo,7157.859001999999,11.11533333,17.77873016,0.25,low,Junio
+Jumbo Portal Temuco,SalesPMalo,5391.328609,9.549838057,13.98308486,0.17,low,Julio
+Jumbo Portal Temuco,ConversionMalo,5391.328609,9.549838057,13.98308486,0.17,low,Julio
+Jumbo Portal Temuco,StarRegular,5391.328609,9.549838057,13.98308486,0.17,medium,Julio
+Jumbo Portal Temuco,EficienciaRegular,5391.328609,9.549838057,13.98308486,0.17,medium,Julio
+Jumbo Portal Temuco,SalesPMalo,7251.092559000001,11.6691866,18.64450659,0.22,low,Agosto
+Jumbo Portal Temuco,ConversionRegular,7251.092559000001,11.6691866,18.64450659,0.22,medium,Agosto
+Jumbo Portal Temuco,StarRegular,7251.092559000001,11.6691866,18.64450659,0.22,medium,Agosto
+Jumbo Portal Temuco,EficienciaRegular,7251.092559000001,11.6691866,18.64450659,0.22,medium,Agosto
+Jumbo Portal Temuco,SalesPMalo,5779.682769,10.65451923,13.312816199999999,0.18,low,Septiembre
+Jumbo Portal Temuco,ConversionRegular,5779.682769,10.65451923,13.312816199999999,0.18,medium,Septiembre
+Jumbo Portal Temuco,StarRegular,5779.682769,10.65451923,13.312816199999999,0.18,medium,Septiembre
+Jumbo Portal Temuco,EficienciaRegular,5779.682769,10.65451923,13.312816199999999,0.18,medium,Septiembre
+Jumbo Portal Temuco,SalesPMalo,5752.097696,9.057038627,11.21940255,0.15,low,Octubre
+Jumbo Portal Temuco,ConversionMalo,5752.097696,9.057038627,11.21940255,0.15,low,Octubre
+Jumbo Portal Temuco,StarMalo,5752.097696,9.057038627,11.21940255,0.15,low,Octubre
+Jumbo Portal Temuco,EficienciaRegular,5752.097696,9.057038627,11.21940255,0.15,medium,Octubre
+Antofagasta,SalesPRegular,10741.95855,15.4277305,13.73036704,0.2,medium,Junio
+Antofagasta,ConversionRegular,10741.95855,15.4277305,13.73036704,0.2,medium,Junio
+Antofagasta,StarRegular,10741.95855,15.4277305,13.73036704,0.2,medium,Junio
+Antofagasta,EficienciaRegular,10741.95855,15.4277305,13.73036704,0.2,medium,Junio
+Antofagasta,SalesPRegular,8712.886755,13.63094737,17.54315181,0.16,medium,Julio
+Antofagasta,ConversionRegular,8712.886755,13.63094737,17.54315181,0.16,medium,Julio
+Antofagasta,StarRegular,8712.886755,13.63094737,17.54315181,0.16,medium,Julio
+Antofagasta,EficienciaRegular,8712.886755,13.63094737,17.54315181,0.16,medium,Julio
+Antofagasta,SalesPRegular,10286.03718,15.07524096,19.6692951,0.18,medium,Agosto
+Antofagasta,ConversionRegular,10286.03718,15.07524096,19.6692951,0.18,medium,Agosto
+Antofagasta,StarRegular,10286.03718,15.07524096,19.6692951,0.18,medium,Agosto
+Antofagasta,EficienciaRegular,10286.03718,15.07524096,19.6692951,0.18,medium,Agosto
+Antofagasta,SalesPRegular,13042.24495,19.2088587,19.73927328,0.18,medium,Septiembre
+Antofagasta,ConversionBueno,13042.24495,19.2088587,19.73927328,0.18,high,Septiembre
+Antofagasta,StarRegular,13042.24495,19.2088587,19.73927328,0.18,medium,Septiembre
+Antofagasta,EficienciaRegular,13042.24495,19.2088587,19.73927328,0.18,medium,Septiembre
+Antofagasta,SalesPRegular,9982.606842000001,13.99338983,17.10713865,0.17,medium,Octubre
+Antofagasta,ConversionRegular,9982.606842000001,13.99338983,17.10713865,0.17,medium,Octubre
+Antofagasta,StarRegular,9982.606842000001,13.99338983,17.10713865,0.17,medium,Octubre
+Antofagasta,EficienciaRegular,9982.606842000001,13.99338983,17.10713865,0.17,medium,Octubre
+Mall Plaza El Trebol,SalesPRegular,8471.189876999999,13.26608108,20.85514555,0.33,medium,Junio
+Mall Plaza El Trebol,ConversionRegular,8471.189876999999,13.26608108,20.85514555,0.33,medium,Junio
+Mall Plaza El Trebol,StarBueno,8471.189876999999,13.26608108,20.85514555,0.33,high,Junio
+Mall Plaza El Trebol,EficienciaMalo,8471.189876999999,13.26608108,20.85514555,0.33,low,Junio
+Mall Plaza El Trebol,SalesPMalo,6890.693009999999,11.66513889,19.24432304,0.27,low,Julio
+Mall Plaza El Trebol,ConversionRegular,6890.693009999999,11.66513889,19.24432304,0.27,medium,Julio
+Mall Plaza El Trebol,StarRegular,6890.693009999999,11.66513889,19.24432304,0.27,medium,Julio
+Mall Plaza El Trebol,EficienciaMalo,6890.693009999999,11.66513889,19.24432304,0.27,low,Julio
+Mall Plaza El Trebol,SalesPMalo,5733.557828,10.59802139,21.99410767,0.35,low,Agosto
+Mall Plaza El Trebol,ConversionRegular,5733.557828,10.59802139,21.99410767,0.35,medium,Agosto
+Mall Plaza El Trebol,StarBueno,5733.557828,10.59802139,21.99410767,0.35,high,Agosto
+Mall Plaza El Trebol,EficienciaMalo,5733.557828,10.59802139,21.99410767,0.35,low,Agosto
+Mall Plaza El Trebol,SalesPMalo,7112.164158,13.62852941,23.96643609,0.31,low,Septiembre
+Mall Plaza El Trebol,ConversionRegular,7112.164158,13.62852941,23.96643609,0.31,medium,Septiembre
+Mall Plaza El Trebol,StarBueno,7112.164158,13.62852941,23.96643609,0.31,high,Septiembre
+Mall Plaza El Trebol,EficienciaMalo,7112.164158,13.62852941,23.96643609,0.31,low,Septiembre
+Mall Plaza El Trebol,SalesPMalo,5592.596278,10.7195,14.29044847,0.28,low,Octubre
+Mall Plaza El Trebol,ConversionRegular,5592.596278,10.7195,14.29044847,0.28,medium,Octubre
+Mall Plaza El Trebol,StarRegular,5592.596278,10.7195,14.29044847,0.28,medium,Octubre
+Mall Plaza El Trebol,EficienciaMalo,5592.596278,10.7195,14.29044847,0.28,low,Octubre
+Plaza Antofagasta,SalesPRegular,10326.70153,11.07104972,14.38729336,0.24,medium,Junio
+Plaza Antofagasta,ConversionRegular,10326.70153,11.07104972,14.38729336,0.24,medium,Junio
+Plaza Antofagasta,StarRegular,10326.70153,11.07104972,14.38729336,0.24,medium,Junio
+Plaza Antofagasta,EficienciaMalo,10326.70153,11.07104972,14.38729336,0.24,low,Junio
+Plaza Antofagasta,SalesPRegular,8296.932679000001,10.98596899,20.06656605,0.24,medium,Julio
+Plaza Antofagasta,ConversionRegular,8296.932679000001,10.98596899,20.06656605,0.24,medium,Julio
+Plaza Antofagasta,StarRegular,8296.932679000001,10.98596899,20.06656605,0.24,medium,Julio
+Plaza Antofagasta,EficienciaMalo,8296.932679000001,10.98596899,20.06656605,0.24,low,Julio
+Plaza Antofagasta,SalesPRegular,8375.417038,12.76950673,20.39221901,0.28,medium,Agosto
+Plaza Antofagasta,ConversionRegular,8375.417038,12.76950673,20.39221901,0.28,medium,Agosto
+Plaza Antofagasta,StarRegular,8375.417038,12.76950673,20.39221901,0.28,medium,Agosto
+Plaza Antofagasta,EficienciaMalo,8375.417038,12.76950673,20.39221901,0.28,low,Agosto
+Plaza Antofagasta,SalesPRegular,8933.787898999999,11.175,16.97483748,0.23,medium,Septiembre
+Plaza Antofagasta,ConversionRegular,8933.787898999999,11.175,16.97483748,0.23,medium,Septiembre
+Plaza Antofagasta,StarRegular,8933.787898999999,11.175,16.97483748,0.23,medium,Septiembre
+Plaza Antofagasta,EficienciaMalo,8933.787898999999,11.175,16.97483748,0.23,low,Septiembre
+Plaza Antofagasta,SalesPRegular,9269.202699,11.03457265,14.02102721,0.17,medium,Octubre
+Plaza Antofagasta,ConversionRegular,9269.202699,11.03457265,14.02102721,0.17,medium,Octubre
+Plaza Antofagasta,StarRegular,9269.202699,11.03457265,14.02102721,0.17,medium,Octubre
+Plaza Antofagasta,EficienciaRegular,9269.202699,11.03457265,14.02102721,0.17,medium,Octubre
