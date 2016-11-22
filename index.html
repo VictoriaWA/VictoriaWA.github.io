@@ -21,7 +21,7 @@
     <script src="libs/d3.v3.min.js"></script>
     <script src="libs/d3.slider.js"></script>
     <script src="libs/underscore.js"></script>
-
+    <script src="libs/bullet.js"></script>
 
     <!-- Bootstrap core CSS -->
     <link href="bootstrap-3.3.1-dist/css/bootstrap-cosmo.min.css" rel="stylesheet">
@@ -43,6 +43,17 @@
       fill: black;
       font-size: 16px;
     }
+
+    .bullet { font: 10px sans-serif; }
+    .bullet .marker { stroke: gray; stroke-width: 0px; }
+    .bullet .tick line { stroke: #484d6d; stroke-width: .5px; }
+    .bullet .range.s0 { fill: #7aa25c; }
+    .bullet .range.s1 { fill: #5c7aa2; }
+    .bullet .range.s2 { fill: #a25c7a; }
+    .bullet .measure.s0 { fill: white; }
+    .bullet .title { font-size: 14px; font-weight: bold; }
+    .bullet .subtitle { fill: #999; }
+
     </style>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -100,8 +111,37 @@
           </div>
       </div>
 
+      <p>La siguiente visualización permite evaluar la eficiencia, productividad y optimización de la dotación asignada a cada tienda. Además permite comparar el punto de operación de cada tienda con respecto al resto, dejando en evidencia de manera clara los casos más críticos.</p>
+
+
+      <p>Para ver el detalle de cada mes es necesario utilizar el selector ubicado sobre el cuadro de información. Al pasar el cursor sobre cada círculo se despliega el nombre de la tienda correspondiente.</p>
+
+
+      <div class="panel panel-default">
+          <div class="panel-heading"><h4>Indicadores de Desempeño por Tienda, Día y Horario</h4>
+            <div id="slider13" class="pull-right" style="width: 50%; margin-top: -35px; margin-right: 50px"></div>
+            <p></p>
+          </div>
+          <div id="comunas-bullets">
+            <div class="col-lg-4 col-lg-offset-4" style="margin-top: 15px;">
+              <select id="select-stores" class="form-control input-sm" style="font-size: 20px; height:50px; text-align: center;">
+              </select>
+            </div>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <h3 style="text-align: center;">Junio 2016</h3>
+            <div id="area0"></div>
+            <div id="area1" style="float: left; width: 534px;"><h3 style="text-align: center;">Semana</h3><h4 style="text-align: center;">Tarde</h4></div>
+            <div id="area2" style="float: right; width: 534px;"><h3 style="text-align: center;">Fin de Semana</h3><h4 style="text-align: center;">Tarde</h4></div>
+            <div id="area3" style="float: left; width: 534px;"><h4 style="text-align: center;">Mañana</h4></div>
+            <div id="area4" style="float: right; width: 534px;"><h4 style="text-align: center;">Mañana</h4></div>
+              <div class="clearfix"></div>
+          </div>
+          <p>&nbsp;</p>
+      </div>
+
       <footer class="footer">
-        <p>Última actualización: <em>21 de Noviembre de 2016</em>. Datos obtenidos desde plataformas ShopperTrak y Victoria.</p>
+        <p>Última actualización: <em>22 de Noviembre de 2016</em>. Datos obtenidos desde plataformas ShopperTrak y Victoria.</p>
 
       </footer>
 
@@ -145,6 +185,21 @@
                } });
     });
     d3.select('#slider12').call(essai);
+
+    essai2 = d3.slider().scale(d3.scale.ordinal().domain(["Junio", "Julio", "Agosto", "Septiembre", "Octubre"]).rangePoints([0, 1], 0.5)).axis(d3.svg.axis()).snap(true).value("Junio").on("slide", function(evt, value) {
+
+    });
+    d3.select('#slider13').call(essai2);
+
+    var nest = d3.nest()
+      .key(function(d) { return d.Store;})
+      .entries(data);
+
+    var option = d3.select('#select-stores').selectAll('option')
+      .data(nest.sort(function(a, b) { return d3.ascending(a.key, b.key); }));
+    option.enter()
+      .append('option')
+      .text(function(d) { return d.key; });
 
     var padding = 0;
     var maxRadius = d3.max(_.pluck(data, 'radius'));
@@ -302,6 +357,169 @@
     }
   });
 
+
+  var margin1 = {top: 5, right: 30, bottom: 20, left: 160},
+      width1 = 1068 - margin1.left - margin1.right,
+      height1 = 50 - margin1.top - margin1.bottom;
+
+  var chart0 = d3.bullet()
+      .width(width1)
+      .height(height1);
+
+  d3.json("data/bulletdata0.json", function(error, data) {
+    var svg1 = d3.select("#area0").selectAll("svg")
+        .data(data)
+      .enter().append("svg")
+        .attr("class", "bullet")
+        .attr("width", width1 + margin1.left + margin1.right)
+        .attr("height", height1 + margin1.top + margin1.bottom)
+      .append("g")
+        .attr("transform", "translate(" + margin1.left + "," + margin1.top + ")")
+        .call(chart0);
+
+    var title = svg1.append("g")
+        .style("text-anchor", "end")
+        .attr("transform", "translate(-6," + height1 / 2 + ")");
+
+    title.append("text")
+        .attr("class", "title")
+        .text(function(d) { return d.title; });
+
+    title.append("text")
+        .attr("class", "subtitle")
+        .attr("dy", "1em")
+        .text(function(d) { return d.subtitle; });
+
+
+  });
+
+  var margin2 = {top: 5, right: 30, bottom: 20, left: 160},
+      width2 = 534 - margin2.left - margin2.right,
+      height2 = 50 - margin2.top - margin2.bottom;
+
+  var chart1 = d3.bullet()
+      .width(width2)
+      .height(height2);
+
+  d3.json("data/bulletdata2.json", function(error, data) {
+    var svg1 = d3.select("#area1").selectAll("svg")
+        .data(data)
+      .enter().append("svg")
+        .attr("class", "bullet")
+        .attr("width", width2 + margin2.left + margin2.right)
+        .attr("height", height2 + margin2.top + margin2.bottom)
+      .append("g")
+        .attr("transform", "translate(" + margin2.left + "," + margin2.top + ")")
+        .call(chart1);
+
+    var title = svg1.append("g")
+        .style("text-anchor", "end")
+        .attr("transform", "translate(-6," + height2 / 2 + ")");
+
+    title.append("text")
+        .attr("class", "title")
+        .text(function(d) { return d.title; });
+
+    title.append("text")
+        .attr("class", "subtitle")
+        .attr("dy", "1em")
+        .text(function(d) { return d.subtitle; });
+
+
+  });
+
+  var chart2 = d3.bullet()
+      .width(width2)
+      .height(height2);
+
+  d3.json("data/bulletdata1.json", function(error, data) {
+    var svg1 = d3.select("#area2").selectAll("svg")
+        .data(data)
+      .enter().append("svg")
+        .attr("class", "bullet")
+        .attr("width", width2 + margin2.left + margin2.right)
+        .attr("height", height2 + margin2.top + margin2.bottom)
+      .append("g")
+        .attr("transform", "translate(" + margin2.left + "," + margin2.top + ")")
+        .call(chart2);
+
+    var title = svg1.append("g")
+        .style("text-anchor", "end")
+        .attr("transform", "translate(-6," + height2 / 2 + ")");
+
+    title.append("text")
+        .attr("class", "title")
+        .text(function(d) { return d.title; });
+
+    title.append("text")
+        .attr("class", "subtitle")
+        .attr("dy", "1em")
+        .text(function(d) { return d.subtitle; });
+
+
+  });
+
+  var chart3 = d3.bullet()
+      .width(width2)
+      .height(height2);
+
+  d3.json("data/bulletdata4.json", function(error, data) {
+    var svg1 = d3.select("#area3").selectAll("svg")
+        .data(data)
+      .enter().append("svg")
+        .attr("class", "bullet")
+        .attr("width", width2 + margin2.left + margin2.right)
+        .attr("height", height2 + margin2.top + margin2.bottom)
+      .append("g")
+        .attr("transform", "translate(" + margin2.left + "," + margin2.top + ")")
+        .call(chart3);
+
+    var title = svg1.append("g")
+        .style("text-anchor", "end")
+        .attr("transform", "translate(-6," + height2 / 2 + ")");
+
+    title.append("text")
+        .attr("class", "title")
+        .text(function(d) { return d.title; });
+
+    title.append("text")
+        .attr("class", "subtitle")
+        .attr("dy", "1em")
+        .text(function(d) { return d.subtitle; });
+
+
+  });
+
+  var chart4 = d3.bullet()
+      .width(width2)
+      .height(height2);
+
+  d3.json("data/bulletdata3.json", function(error, data) {
+    var svg1 = d3.select("#area4").selectAll("svg")
+        .data(data)
+      .enter().append("svg")
+        .attr("class", "bullet")
+        .attr("width", width2 + margin2.left + margin2.right)
+        .attr("height", height2 + margin2.top + margin2.bottom)
+      .append("g")
+        .attr("transform", "translate(" + margin2.left + "," + margin2.top + ")")
+        .call(chart4);
+
+    var title = svg1.append("g")
+        .style("text-anchor", "end")
+        .attr("transform", "translate(-6," + height2 / 2 + ")");
+
+    title.append("text")
+        .attr("class", "title")
+        .text(function(d) { return d.title; });
+
+    title.append("text")
+        .attr("class", "subtitle")
+        .attr("dy", "1em")
+        .text(function(d) { return d.subtitle; });
+
+
+  });
 
 
 
