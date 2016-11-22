@@ -141,7 +141,7 @@
             </div>
             <p>&nbsp;</p>
             <p>&nbsp;</p>
-            <h3 style="text-align: center;">Junio 2016</h3>
+            <p>&nbsp;</p>
             <div id="area0"></div>
             <div id="area1" style="float: left; width: 534px;"><h3 style="text-align: center;">Semana</h3><h4 style="text-align: center;">Tarde</h4></div>
             <div id="area2" style="float: right; width: 534px;"><h3 style="text-align: center;">Fin de Semana</h3><h4 style="text-align: center;">Tarde</h4></div>
@@ -164,7 +164,7 @@
     $("a.tooltipLink").tooltip();
 
 
-    d3.csv('data/datos5.csv', function (error, data) {
+    d3.csv('data/datos6.csv', function (error, data) {
 
     var width = 600, height = 550;
     var fill = d3.scale.ordinal()
@@ -202,20 +202,9 @@
     });
     d3.select('#slider12').call(essai);
 
-    essai2 = d3.slider().scale(d3.scale.ordinal().domain(["Junio", "Julio", "Agosto", "Septiembre", "Octubre"]).rangePoints([0, 1], 0.5)).axis(d3.svg.axis()).snap(true).value("Junio").on("slide", function(evt, value) {
 
-    });
-    d3.select('#slider13').call(essai2);
 
-    var nest = d3.nest()
-      .key(function(d) { return d.Store;})
-      .entries(data);
 
-    var option = d3.select('#select-stores').selectAll('option')
-      .data(nest.sort(function(a, b) { return d3.ascending(a.key, b.key); }));
-    option.enter()
-      .append('option')
-      .text(function(d) { return d.key; });
 
     var padding = 0;
     var maxRadius = d3.max(_.pluck(data, 'radius'));
@@ -337,8 +326,21 @@
           //return "Store: " + d.Store + "<br/>SalesP: " + d.SalesP +
           //       "<br/>Conversion: " + d.Conversion + "<br/>STARP: " + d.StarP +
           //       "<br/>Eficiencia: " + d.Eficiencia;
-
-          return "" + d.Store;
+          if(d.Category=="SalesPRegular"|d.Category=="SalesPBueno"|d.Category=="SalesPMalo"){
+            return "<b>" + d.Store+"</b><br/>" + d.SalesP;
+          }
+          else if(d.Category=="ConversionRegular"|d.Category=="ConversionBueno"|d.Category=="ConversionMalo"){
+            return "<b>" + d.Store+"</b><br/>" + d.Conversion;
+          }
+          else if(d.Category=="StarRegular"|d.Category=="StarBueno"|d.Category=="StarMalo"){
+            return "<b>" + d.Store+"</b><br/>" + d.StarP;
+          }
+          else if(d.Category=="EficienciaRegular"|d.Category=="EficienciaBueno"|d.Category=="EficienciaMalo"){
+            return "<b>" + d.Store+"</b><br/>" + d.Eficiencia;
+          }
+          else {
+            return "" + d.Store;
+          }
         }
       });
       $(this).popover('show')
@@ -382,7 +384,56 @@
       .width(width1)
       .height(height1);
 
-  d3.json("data/bulletdata0.json", function(error, data) {
+  var config_store = "01_";
+  var config_month = "JUN_";
+  var config_name = config_store + config_month;
+  essai2 = d3.slider().scale(d3.scale.ordinal().domain(["Junio", "Julio", "Agosto", "Septiembre", "Octubre"]).rangePoints([0, 1], 0.5)).axis(d3.svg.axis()).snap(true).value("Junio").on("slide", function(evt, value) {
+        if(value == "Junio"){
+          config_month = "JUN_";
+        }
+        else {
+          config_month = "JUL_";
+        }
+        config_name = config_store + config_month;
+        updateData(config_name);
+      });
+  d3.select('#slider13').call(essai2);
+
+  d3.csv('data/datos5.csv', function (error, data) {
+  var nest = d3.nest()
+    .key(function(d) { return d.Store;})
+    .entries(data);
+
+    var option = d3.select('#select-stores').selectAll('option')
+      .data(nest.sort(function(a, b) { return d3.ascending(a.key, b.key); }));
+    option.enter()
+      .append('option')
+      .text(function(d) { return d.key; });
+
+
+      d3.select('#select-stores').on('change', function(e) {
+        if(this.key=="Antofagasta"){
+          config_store = "01_";
+        }
+        else{
+          config_store = "02_";
+        }
+
+        config_name = config_store + config_month;
+
+        updateData(config_name);
+      });
+  });
+
+
+
+
+
+
+  d3.json("data/"+config_name+"bulletdata0.json", function(error, data) {
+
+
+
     var svg1 = d3.select("#area0").selectAll("svg")
         .data(data)
       .enter().append("svg")
@@ -417,7 +468,7 @@
       .width(width2)
       .height(height2);
 
-  d3.json("data/bulletdata2.json", function(error, data) {
+  d3.json("data/"+config_name+"bulletdata2.json", function(error, data) {
     var svg1 = d3.select("#area1").selectAll("svg")
         .data(data)
       .enter().append("svg")
@@ -448,7 +499,7 @@
       .width(width2)
       .height(height2);
 
-  d3.json("data/bulletdata1.json", function(error, data) {
+  d3.json("data/"+config_name+"bulletdata1.json", function(error, data) {
     var svg1 = d3.select("#area2").selectAll("svg")
         .data(data)
       .enter().append("svg")
@@ -479,7 +530,7 @@
       .width(width2)
       .height(height2);
 
-  d3.json("data/bulletdata4.json", function(error, data) {
+  d3.json("data/"+config_name+"bulletdata4.json", function(error, data) {
     var svg1 = d3.select("#area3").selectAll("svg")
         .data(data)
       .enter().append("svg")
@@ -510,7 +561,7 @@
       .width(width2)
       .height(height2);
 
-  d3.json("data/bulletdata3.json", function(error, data) {
+  d3.json("data/"+config_name+"bulletdata3.json", function(error, data) {
     var svg1 = d3.select("#area4").selectAll("svg")
         .data(data)
       .enter().append("svg")
@@ -537,7 +588,67 @@
 
   });
 
+  function updateData(config_name) {
+    d3.json("data/"+config_name+"bulletdata0.json", function(error, data) {
 
+      var svg1 = d3.select("#area0").selectAll("svg")
+      .datum(function (d, i) {
+            d.ranges = data[i].ranges;
+            d.measures = data[i].measures;
+            d.markers = data[i].markers;
+            return d;
+        })
+        .call(chart0.duration(1000));
+      });
+
+      d3.json("data/"+config_name+"bulletdata1.json", function(error, data) {
+
+        var svg1 = d3.select("#area1").selectAll("svg")
+        .datum(function (d, i) {
+              d.ranges = data[i].ranges;
+              d.measures = data[i].measures;
+              d.markers = data[i].markers;
+              return d;
+          })
+          .call(chart1.duration(1000));
+        });
+
+        d3.json("data/"+config_name+"bulletdata2.json", function(error, data) {
+
+          var svg1 = d3.select("#area2").selectAll("svg")
+          .datum(function (d, i) {
+                d.ranges = data[i].ranges;
+                d.measures = data[i].measures;
+                d.markers = data[i].markers;
+                return d;
+            })
+            .call(chart2.duration(1000));
+          });
+
+          d3.json("data/"+config_name+"bulletdata3.json", function(error, data) {
+
+            var svg1 = d3.select("#area3").selectAll("svg")
+            .datum(function (d, i) {
+                  d.ranges = data[i].ranges;
+                  d.measures = data[i].measures;
+                  d.markers = data[i].markers;
+                  return d;
+              })
+              .call(chart3.duration(1000));
+            });
+
+            d3.json("data/"+config_name+"bulletdata4.json", function(error, data) {
+
+              var svg1 = d3.select("#area4").selectAll("svg")
+              .datum(function (d, i) {
+                    d.ranges = data[i].ranges;
+                    d.measures = data[i].measures;
+                    d.markers = data[i].markers;
+                    return d;
+                })
+                .call(chart4.duration(1000));
+              });
+}
 
 </script>
   </body>

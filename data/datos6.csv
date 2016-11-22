@@ -1,0 +1,281 @@
+Store,Category,SalesP,Conversion,StarP,Eficiencia,group,month
+Mall Parque Arauco,SalesPBueno,21455,16.07,14.30,9.00,high,Junio
+Mall Parque Arauco,ConversionBueno,21455,16.07,14.30,9.00,high,Junio
+Mall Parque Arauco,StarRegular,21455,16.07,14.30,9.00,medium,Junio
+Mall Parque Arauco,EficienciaRegular,21455,16.07,14.30,9.00,medium,Junio
+Mall Parque Arauco,SalesPBueno,17400,15.03,11.62,7.00,high,Julio
+Mall Parque Arauco,ConversionRegular,17400,15.03,11.62,7.00,medium,Julio
+Mall Parque Arauco,StarMalo,17400,15.03,11.62,7.00,low,Julio
+Mall Parque Arauco,EficienciaBueno,17400,15.03,11.62,7.00,high,Julio
+Mall Parque Arauco,SalesPBueno,22607,18.49,19.63,9.00,high,Agosto
+Mall Parque Arauco,ConversionBueno,22607,18.49,19.63,9.00,high,Agosto
+Mall Parque Arauco,StarRegular,22607,18.49,19.63,9.00,medium,Agosto
+Mall Parque Arauco,EficienciaRegular,22607,18.49,19.63,9.00,medium,Agosto
+Mall Parque Arauco,SalesPBueno,23252,20.03,18.28,10.00,high,Septiembre
+Mall Parque Arauco,ConversionBueno,23252,20.03,18.28,10.00,high,Septiembre
+Mall Parque Arauco,StarRegular,23252,20.03,18.28,10.00,medium,Septiembre
+Mall Parque Arauco,EficienciaRegular,23252,20.03,18.28,10.00,medium,Septiembre
+Mall Parque Arauco,SalesPBueno,21815,17.08,18.11,8.00,high,Octubre
+Mall Parque Arauco,ConversionBueno,21815,17.08,18.11,8.00,high,Octubre
+Mall Parque Arauco,StarRegular,21815,17.08,18.11,8.00,medium,Octubre
+Mall Parque Arauco,EficienciaBueno,21815,17.08,18.11,8.00,high,Octubre
+Mall Marina Arauco,SalesPBueno,19766,17.56,25.51,15.00,high,Junio
+Mall Marina Arauco,ConversionBueno,19766,17.56,25.51,15.00,high,Junio
+Mall Marina Arauco,StarBueno,19766,17.56,25.51,15.00,high,Junio
+Mall Marina Arauco,EficienciaRegular,19766,17.56,25.51,15.00,medium,Junio
+Mall Marina Arauco,SalesPBueno,25794,20.91,24.23,9.00,high,Julio
+Mall Marina Arauco,ConversionBueno,25794,20.91,24.23,9.00,high,Julio
+Mall Marina Arauco,StarBueno,25794,20.91,24.23,9.00,high,Julio
+Mall Marina Arauco,EficienciaRegular,25794,20.91,24.23,9.00,medium,Julio
+Mall Marina Arauco,SalesPBueno,17383,15.55,15.70,12.00,high,Agosto
+Mall Marina Arauco,ConversionRegular,17383,15.55,15.70,12.00,medium,Agosto
+Mall Marina Arauco,StarRegular,17383,15.55,15.70,12.00,medium,Agosto
+Mall Marina Arauco,EficienciaRegular,17383,15.55,15.70,12.00,medium,Agosto
+Mall Marina Arauco,SalesPRegular,15681,15.53,15.18,11.00,medium,Septiembre
+Mall Marina Arauco,ConversionRegular,15681,15.53,15.18,11.00,medium,Septiembre
+Mall Marina Arauco,StarRegular,15681,15.53,15.18,11.00,medium,Septiembre
+Mall Marina Arauco,EficienciaRegular,15681,15.53,15.18,11.00,medium,Septiembre
+Mall Marina Arauco,SalesPRegular,14214,12.55,12.08,9.00,medium,Octubre
+Mall Marina Arauco,ConversionRegular,14214,12.55,12.08,9.00,medium,Octubre
+Mall Marina Arauco,StarMalo,14214,12.55,12.08,9.00,low,Octubre
+Mall Marina Arauco,EficienciaRegular,14214,12.55,12.08,9.00,medium,Octubre
+Mall Rancagua,SalesPRegular,7568,10.84,14.13,15.00,medium,Junio
+Mall Rancagua,ConversionRegular,7568,10.84,14.13,15.00,medium,Junio
+Mall Rancagua,StarRegular,7568,10.84,14.13,15.00,medium,Junio
+Mall Rancagua,EficienciaRegular,7568,10.84,14.13,15.00,medium,Junio
+Mall Rancagua,SalesPRegular,7998,9.91,12.82,8.00,medium,Julio
+Mall Rancagua,ConversionMalo,7998,9.91,12.82,8.00,low,Julio
+Mall Rancagua,StarRegular,7998,9.91,12.82,8.00,medium,Julio
+Mall Rancagua,EficienciaBueno,7998,9.91,12.82,8.00,high,Julio
+Mall Rancagua,SalesPRegular,8474,11.03,15.23,12.00,medium,Agosto
+Mall Rancagua,ConversionRegular,8474,11.03,15.23,12.00,medium,Agosto
+Mall Rancagua,StarRegular,8474,11.03,15.23,12.00,medium,Agosto
+Mall Rancagua,EficienciaRegular,8474,11.03,15.23,12.00,medium,Agosto
+Mall Rancagua,SalesPRegular,7906,11.86,12.37,11.00,medium,Septiembre
+Mall Rancagua,ConversionRegular,7906,11.86,12.37,11.00,medium,Septiembre
+Mall Rancagua,StarMalo,7906,11.86,12.37,11.00,low,Septiembre
+Mall Rancagua,EficienciaRegular,7906,11.86,12.37,11.00,medium,Septiembre
+Mall Rancagua,SalesPRegular,8913,12.31,12.42,11.00,medium,Octubre
+Mall Rancagua,ConversionRegular,8913,12.31,12.42,11.00,medium,Octubre
+Mall Rancagua,StarMalo,8913,12.31,12.42,11.00,low,Octubre
+Mall Rancagua,EficienciaRegular,8913,12.31,12.42,11.00,medium,Octubre
+Jumbo Rancagua,SalesPRegular,16978,16.22,25.66,19.00,medium,Junio
+Jumbo Rancagua,ConversionBueno,16978,16.22,25.66,19.00,high,Junio
+Jumbo Rancagua,StarBueno,16978,16.22,25.66,19.00,high,Junio
+Jumbo Rancagua,EficienciaRegular,16978,16.22,25.66,19.00,medium,Junio
+Jumbo Rancagua,SalesPRegular,16333,14.94,21.07,11.00,medium,Julio
+Jumbo Rancagua,ConversionRegular,16333,14.94,21.07,11.00,medium,Julio
+Jumbo Rancagua,StarBueno,16333,14.94,21.07,11.00,high,Julio
+Jumbo Rancagua,EficienciaRegular,16333,14.94,21.07,11.00,medium,Julio
+Jumbo Rancagua,SalesPBueno,18957,18.09,26.17,13.00,high,Agosto
+Jumbo Rancagua,ConversionBueno,18957,18.09,26.17,13.00,high,Agosto
+Jumbo Rancagua,StarBueno,18957,18.09,26.17,13.00,high,Agosto
+Jumbo Rancagua,EficienciaRegular,18957,18.09,26.17,13.00,medium,Agosto
+Jumbo Rancagua,SalesPBueno,18591,19.08,21.77,13.00,high,Septiembre
+Jumbo Rancagua,ConversionBueno,18591,19.08,21.77,13.00,high,Septiembre
+Jumbo Rancagua,StarBueno,18591,19.08,21.77,13.00,high,Septiembre
+Jumbo Rancagua,EficienciaRegular,18591,19.08,21.77,13.00,medium,Septiembre
+Jumbo Rancagua,SalesPRegular,14524,15.55,23.86,15.00,medium,Octubre
+Jumbo Rancagua,ConversionRegular,14524,15.55,23.86,15.00,medium,Octubre
+Jumbo Rancagua,StarBueno,14524,15.55,23.86,15.00,high,Octubre
+Jumbo Rancagua,EficienciaRegular,14524,15.55,23.86,15.00,medium,Octubre
+Mall Plaza La Serena,SalesPRegular,10338,10.43,11.90,19.00,medium,Junio
+Mall Plaza La Serena,ConversionMalo,10338,10.43,11.90,19.00,low,Junio
+Mall Plaza La Serena,StarMalo,10338,10.43,11.90,19.00,low,Junio
+Mall Plaza La Serena,EficienciaRegular,10338,10.43,11.90,19.00,medium,Junio
+Mall Plaza La Serena,SalesPRegular,11609,11.81,12.22,10.00,medium,Julio
+Mall Plaza La Serena,ConversionRegular,11609,11.81,12.22,10.00,medium,Julio
+Mall Plaza La Serena,StarMalo,11609,11.81,12.22,10.00,low,Julio
+Mall Plaza La Serena,EficienciaRegular,11609,11.81,12.22,10.00,medium,Julio
+Mall Plaza La Serena,SalesPRegular,9227,9.77,14.62,13.00,medium,Agosto
+Mall Plaza La Serena,ConversionMalo,9227,9.77,14.62,13.00,low,Agosto
+Mall Plaza La Serena,StarRegular,9227,9.77,14.62,13.00,medium,Agosto
+Mall Plaza La Serena,EficienciaRegular,9227,9.77,14.62,13.00,medium,Agosto
+Mall Plaza La Serena,SalesPRegular,9433,10.36,12.22,15.00,medium,Septiembre
+Mall Plaza La Serena,ConversionMalo,9433,10.36,12.22,15.00,low,Septiembre
+Mall Plaza La Serena,StarMalo,9433,10.36,12.22,15.00,low,Septiembre
+Mall Plaza La Serena,EficienciaRegular,9433,10.36,12.22,15.00,medium,Septiembre
+Mall Plaza La Serena,SalesPRegular,7447,8.84,8.96,13.00,medium,Octubre
+Mall Plaza La Serena,ConversionMalo,7447,8.84,8.96,13.00,low,Octubre
+Mall Plaza La Serena,StarMalo,7447,8.84,8.96,13.00,low,Octubre
+Mall Plaza La Serena,EficienciaRegular,7447,8.84,8.96,13.00,medium,Octubre
+Mall Plaza Vespucio,SalesPRegular,10838,10.97,13.26,16.00,medium,Junio
+Mall Plaza Vespucio,ConversionRegular,10838,10.97,13.26,16.00,medium,Junio
+Mall Plaza Vespucio,StarRegular,10838,10.97,13.26,16.00,medium,Junio
+Mall Plaza Vespucio,EficienciaRegular,10838,10.97,13.26,16.00,medium,Junio
+Mall Plaza Vespucio,SalesPRegular,11596,12.52,13.75,9.00,medium,Julio
+Mall Plaza Vespucio,ConversionRegular,11596,12.52,13.75,9.00,medium,Julio
+Mall Plaza Vespucio,StarRegular,11596,12.52,13.75,9.00,medium,Julio
+Mall Plaza Vespucio,EficienciaRegular,11596,12.52,13.75,9.00,medium,Julio
+Mall Plaza Vespucio,SalesPRegular,12309,12.76,15.27,11.00,medium,Agosto
+Mall Plaza Vespucio,ConversionRegular,12309,12.76,15.27,11.00,medium,Agosto
+Mall Plaza Vespucio,StarRegular,12309,12.76,15.27,11.00,medium,Agosto
+Mall Plaza Vespucio,EficienciaRegular,12309,12.76,15.27,11.00,medium,Agosto
+Mall Plaza Vespucio,SalesPRegular,13730,16.09,18.02,11.00,medium,Septiembre
+Mall Plaza Vespucio,ConversionBueno,13730,16.09,18.02,11.00,high,Septiembre
+Mall Plaza Vespucio,StarRegular,13730,16.09,18.02,11.00,medium,Septiembre
+Mall Plaza Vespucio,EficienciaRegular,13730,16.09,18.02,11.00,medium,Septiembre
+Mall Plaza Vespucio,SalesPRegular,13275,14.53,15.91,10.00,medium,Octubre
+Mall Plaza Vespucio,ConversionRegular,13275,14.53,15.91,10.00,medium,Octubre
+Mall Plaza Vespucio,StarRegular,13275,14.53,15.91,10.00,medium,Octubre
+Mall Plaza Vespucio,EficienciaRegular,13275,14.53,15.91,10.00,medium,Octubre
+Mall Arauco Maipu Ii,SalesPRegular,8507,12.64,14.51,14.00,medium,Junio
+Mall Arauco Maipu Ii,ConversionRegular,8507,12.64,14.51,14.00,medium,Junio
+Mall Arauco Maipu Ii,StarRegular,8507,12.64,14.51,14.00,medium,Junio
+Mall Arauco Maipu Ii,EficienciaRegular,8507,12.64,14.51,14.00,medium,Junio
+Mall Arauco Maipu Ii,SalesPRegular,7458,10.17,13.54,11.00,medium,Julio
+Mall Arauco Maipu Ii,ConversionMalo,7458,10.17,13.54,11.00,low,Julio
+Mall Arauco Maipu Ii,StarRegular,7458,10.17,13.54,11.00,medium,Julio
+Mall Arauco Maipu Ii,EficienciaRegular,7458,10.17,13.54,11.00,medium,Julio
+Mall Arauco Maipu Ii,SalesPRegular,8708,11.78,13.04,12.00,medium,Agosto
+Mall Arauco Maipu Ii,ConversionRegular,8708,11.78,13.04,12.00,medium,Agosto
+Mall Arauco Maipu Ii,StarRegular,8708,11.78,13.04,12.00,medium,Agosto
+Mall Arauco Maipu Ii,EficienciaRegular,8708,11.78,13.04,12.00,medium,Agosto
+Mall Arauco Maipu Ii,SalesPRegular,9969,17.55,18.98,12.00,medium,Septiembre
+Mall Arauco Maipu Ii,ConversionBueno,9969,17.55,18.98,12.00,high,Septiembre
+Mall Arauco Maipu Ii,StarRegular,9969,17.55,18.98,12.00,medium,Septiembre
+Mall Arauco Maipu Ii,EficienciaRegular,9969,17.55,18.98,12.00,medium,Septiembre
+Mall Arauco Maipu Ii,SalesPRegular,8364,13.78,15.59,12.00,medium,Octubre
+Mall Arauco Maipu Ii,ConversionRegular,8364,13.78,15.59,12.00,medium,Octubre
+Mall Arauco Maipu Ii,StarRegular,8364,13.78,15.59,12.00,medium,Octubre
+Mall Arauco Maipu Ii,EficienciaRegular,8364,13.78,15.59,12.00,medium,Octubre
+Eurocentro,SalesPRegular,11029,11.25,15.68,17.00,medium,Junio
+Eurocentro,ConversionRegular,11029,11.25,15.68,17.00,medium,Junio
+Eurocentro,StarRegular,11029,11.25,15.68,17.00,medium,Junio
+Eurocentro,EficienciaRegular,11029,11.25,15.68,17.00,medium,Junio
+Eurocentro,SalesPRegular,11157,11.70,15.06,12.00,medium,Julio
+Eurocentro,ConversionRegular,11157,11.70,15.06,12.00,medium,Julio
+Eurocentro,StarRegular,11157,11.70,15.06,12.00,medium,Julio
+Eurocentro,EficienciaRegular,11157,11.70,15.06,12.00,medium,Julio
+Eurocentro,SalesPRegular,14814,15.29,21.40,14.00,medium,Agosto
+Eurocentro,ConversionRegular,14814,15.29,21.40,14.00,medium,Agosto
+Eurocentro,StarBueno,14814,15.29,21.40,14.00,high,Agosto
+Eurocentro,EficienciaRegular,14814,15.29,21.40,14.00,medium,Agosto
+Eurocentro,SalesPBueno,19535,22.34,25.57,12.00,high,Septiembre
+Eurocentro,ConversionBueno,19535,22.34,25.57,12.00,high,Septiembre
+Eurocentro,StarBueno,19535,22.34,25.57,12.00,high,Septiembre
+Eurocentro,EficienciaRegular,19535,22.34,25.57,12.00,medium,Septiembre
+Eurocentro,SalesPRegular,13621,14.78,18.25,13.00,medium,Octubre
+Eurocentro,ConversionRegular,13621,14.78,18.25,13.00,medium,Octubre
+Eurocentro,StarRegular,13621,14.78,18.25,13.00,medium,Octubre
+Eurocentro,EficienciaRegular,13621,14.78,18.25,13.00,medium,Octubre
+Mall Alto Las Condes II,SalesPRegular,15322,14.42,12.29,10.00,medium,Junio
+Mall Alto Las Condes II,ConversionRegular,15322,14.42,12.29,10.00,medium,Junio
+Mall Alto Las Condes II,StarMalo,15322,14.42,12.29,10.00,low,Junio
+Mall Alto Las Condes II,EficienciaRegular,15322,14.42,12.29,10.00,medium,Junio
+Mall Alto Las Condes II,SalesPRegular,12856,12.27,9.34,7.00,medium,Julio
+Mall Alto Las Condes II,ConversionRegular,12856,12.27,9.34,7.00,medium,Julio
+Mall Alto Las Condes II,StarMalo,12856,12.27,9.34,7.00,low,Julio
+Mall Alto Las Condes II,EficienciaBueno,12856,12.27,9.34,7.00,high,Julio
+Mall Alto Las Condes II,SalesPBueno,18857,17.56,14.73,8.00,high,Agosto
+Mall Alto Las Condes II,ConversionBueno,18857,17.56,14.73,8.00,high,Agosto
+Mall Alto Las Condes II,StarRegular,18857,17.56,14.73,8.00,medium,Agosto
+Mall Alto Las Condes II,EficienciaBueno,18857,17.56,14.73,8.00,high,Agosto
+Mall Alto Las Condes II,SalesPBueno,23603,23.85,18.03,9.00,high,Septiembre
+Mall Alto Las Condes II,ConversionBueno,23603,23.85,18.03,9.00,high,Septiembre
+Mall Alto Las Condes II,StarRegular,23603,23.85,18.03,9.00,medium,Septiembre
+Mall Alto Las Condes II,EficienciaRegular,23603,23.85,18.03,9.00,medium,Septiembre
+Mall Alto Las Condes II,SalesPRegular,13423,13.67,12.63,7.00,medium,Octubre
+Mall Alto Las Condes II,ConversionRegular,13423,13.67,12.63,7.00,medium,Octubre
+Mall Alto Las Condes II,StarRegular,13423,13.67,12.63,7.00,medium,Octubre
+Mall Alto Las Condes II,EficienciaBueno,13423,13.67,12.63,7.00,high,Octubre
+Mall Costanera,SalesPRegular,14119,14.11,14.27,13.00,medium,Junio
+Mall Costanera,ConversionRegular,14119,14.11,14.27,13.00,medium,Junio
+Mall Costanera,StarRegular,14119,14.11,14.27,13.00,medium,Junio
+Mall Costanera,EficienciaRegular,14119,14.11,14.27,13.00,medium,Junio
+Mall Costanera,SalesPRegular,15002,13.82,16.83,8.00,medium,Julio
+Mall Costanera,ConversionRegular,15002,13.82,16.83,8.00,medium,Julio
+Mall Costanera,StarRegular,15002,13.82,16.83,8.00,medium,Julio
+Mall Costanera,EficienciaBueno,15002,13.82,16.83,8.00,high,Julio
+Mall Costanera,SalesPRegular,11038,11.14,11.94,10.00,medium,Agosto
+Mall Costanera,ConversionRegular,11038,11.14,11.94,10.00,medium,Agosto
+Mall Costanera,StarMalo,11038,11.14,11.94,10.00,low,Agosto
+Mall Costanera,EficienciaRegular,11038,11.14,11.94,10.00,medium,Agosto
+Mall Costanera,SalesPRegular,11467,11.01,12.28,10.00,medium,Septiembre
+Mall Costanera,ConversionRegular,11467,11.01,12.28,10.00,medium,Septiembre
+Mall Costanera,StarMalo,11467,11.01,12.28,10.00,low,Septiembre
+Mall Costanera,EficienciaRegular,11467,11.01,12.28,10.00,medium,Septiembre
+Mall Costanera,SalesPRegular,11345,11.39,13.53,9.00,medium,Octubre
+Mall Costanera,ConversionRegular,11345,11.39,13.53,9.00,medium,Octubre
+Mall Costanera,StarRegular,11345,11.39,13.53,9.00,medium,Octubre
+Mall Costanera,EficienciaRegular,11345,11.39,13.53,9.00,medium,Octubre
+Jumbo Portal Temuco,SalesPMalo,7158,11.12,17.78,25.00,low,Junio
+Jumbo Portal Temuco,ConversionRegular,7158,11.12,17.78,25.00,medium,Junio
+Jumbo Portal Temuco,StarRegular,7158,11.12,17.78,25.00,medium,Junio
+Jumbo Portal Temuco,EficienciaMalo,7158,11.12,17.78,25.00,low,Junio
+Jumbo Portal Temuco,SalesPMalo,5391,9.55,13.98,17.00,low,Julio
+Jumbo Portal Temuco,ConversionMalo,5391,9.55,13.98,17.00,low,Julio
+Jumbo Portal Temuco,StarRegular,5391,9.55,13.98,17.00,medium,Julio
+Jumbo Portal Temuco,EficienciaRegular,5391,9.55,13.98,17.00,medium,Julio
+Jumbo Portal Temuco,SalesPMalo,7251,11.67,18.64,22.00,low,Agosto
+Jumbo Portal Temuco,ConversionRegular,7251,11.67,18.64,22.00,medium,Agosto
+Jumbo Portal Temuco,StarRegular,7251,11.67,18.64,22.00,medium,Agosto
+Jumbo Portal Temuco,EficienciaRegular,7251,11.67,18.64,22.00,medium,Agosto
+Jumbo Portal Temuco,SalesPMalo,5780,10.65,13.31,18.00,low,Septiembre
+Jumbo Portal Temuco,ConversionRegular,5780,10.65,13.31,18.00,medium,Septiembre
+Jumbo Portal Temuco,StarRegular,5780,10.65,13.31,18.00,medium,Septiembre
+Jumbo Portal Temuco,EficienciaRegular,5780,10.65,13.31,18.00,medium,Septiembre
+Jumbo Portal Temuco,SalesPMalo,5752,9.06,11.22,15.00,low,Octubre
+Jumbo Portal Temuco,ConversionMalo,5752,9.06,11.22,15.00,low,Octubre
+Jumbo Portal Temuco,StarMalo,5752,9.06,11.22,15.00,low,Octubre
+Jumbo Portal Temuco,EficienciaRegular,5752,9.06,11.22,15.00,medium,Octubre
+Antofagasta,SalesPRegular,10742,15.43,13.73,20.00,medium,Junio
+Antofagasta,ConversionRegular,10742,15.43,13.73,20.00,medium,Junio
+Antofagasta,StarRegular,10742,15.43,13.73,20.00,medium,Junio
+Antofagasta,EficienciaRegular,10742,15.43,13.73,20.00,medium,Junio
+Antofagasta,SalesPRegular,8713,13.63,17.54,16.00,medium,Julio
+Antofagasta,ConversionRegular,8713,13.63,17.54,16.00,medium,Julio
+Antofagasta,StarRegular,8713,13.63,17.54,16.00,medium,Julio
+Antofagasta,EficienciaRegular,8713,13.63,17.54,16.00,medium,Julio
+Antofagasta,SalesPRegular,10286,15.08,19.67,18.00,medium,Agosto
+Antofagasta,ConversionRegular,10286,15.08,19.67,18.00,medium,Agosto
+Antofagasta,StarRegular,10286,15.08,19.67,18.00,medium,Agosto
+Antofagasta,EficienciaRegular,10286,15.08,19.67,18.00,medium,Agosto
+Antofagasta,SalesPRegular,13042,19.21,19.74,18.00,medium,Septiembre
+Antofagasta,ConversionBueno,13042,19.21,19.74,18.00,high,Septiembre
+Antofagasta,StarRegular,13042,19.21,19.74,18.00,medium,Septiembre
+Antofagasta,EficienciaRegular,13042,19.21,19.74,18.00,medium,Septiembre
+Antofagasta,SalesPRegular,9983,13.99,17.11,17.00,medium,Octubre
+Antofagasta,ConversionRegular,9983,13.99,17.11,17.00,medium,Octubre
+Antofagasta,StarRegular,9983,13.99,17.11,17.00,medium,Octubre
+Antofagasta,EficienciaRegular,9983,13.99,17.11,17.00,medium,Octubre
+Mall Plaza El Trebol,SalesPRegular,8471,13.27,20.86,33.00,medium,Junio
+Mall Plaza El Trebol,ConversionRegular,8471,13.27,20.86,33.00,medium,Junio
+Mall Plaza El Trebol,StarBueno,8471,13.27,20.86,33.00,high,Junio
+Mall Plaza El Trebol,EficienciaMalo,8471,13.27,20.86,33.00,low,Junio
+Mall Plaza El Trebol,SalesPMalo,6891,11.67,19.24,27.00,low,Julio
+Mall Plaza El Trebol,ConversionRegular,6891,11.67,19.24,27.00,medium,Julio
+Mall Plaza El Trebol,StarRegular,6891,11.67,19.24,27.00,medium,Julio
+Mall Plaza El Trebol,EficienciaMalo,6891,11.67,19.24,27.00,low,Julio
+Mall Plaza El Trebol,SalesPMalo,5734,10.60,21.99,35.00,low,Agosto
+Mall Plaza El Trebol,ConversionRegular,5734,10.60,21.99,35.00,medium,Agosto
+Mall Plaza El Trebol,StarBueno,5734,10.60,21.99,35.00,high,Agosto
+Mall Plaza El Trebol,EficienciaMalo,5734,10.60,21.99,35.00,low,Agosto
+Mall Plaza El Trebol,SalesPMalo,7112,13.63,23.97,31.00,low,Septiembre
+Mall Plaza El Trebol,ConversionRegular,7112,13.63,23.97,31.00,medium,Septiembre
+Mall Plaza El Trebol,StarBueno,7112,13.63,23.97,31.00,high,Septiembre
+Mall Plaza El Trebol,EficienciaMalo,7112,13.63,23.97,31.00,low,Septiembre
+Mall Plaza El Trebol,SalesPMalo,5593,10.72,14.29,28.00,low,Octubre
+Mall Plaza El Trebol,ConversionRegular,5593,10.72,14.29,28.00,medium,Octubre
+Mall Plaza El Trebol,StarRegular,5593,10.72,14.29,28.00,medium,Octubre
+Mall Plaza El Trebol,EficienciaMalo,5593,10.72,14.29,28.00,low,Octubre
+Plaza Antofagasta,SalesPRegular,10327,11.07,14.39,24.00,medium,Junio
+Plaza Antofagasta,ConversionRegular,10327,11.07,14.39,24.00,medium,Junio
+Plaza Antofagasta,StarRegular,10327,11.07,14.39,24.00,medium,Junio
+Plaza Antofagasta,EficienciaMalo,10327,11.07,14.39,24.00,low,Junio
+Plaza Antofagasta,SalesPRegular,8297,10.99,20.07,24.00,medium,Julio
+Plaza Antofagasta,ConversionRegular,8297,10.99,20.07,24.00,medium,Julio
+Plaza Antofagasta,StarRegular,8297,10.99,20.07,24.00,medium,Julio
+Plaza Antofagasta,EficienciaMalo,8297,10.99,20.07,24.00,low,Julio
+Plaza Antofagasta,SalesPRegular,8375,12.77,20.39,28.00,medium,Agosto
+Plaza Antofagasta,ConversionRegular,8375,12.77,20.39,28.00,medium,Agosto
+Plaza Antofagasta,StarRegular,8375,12.77,20.39,28.00,medium,Agosto
+Plaza Antofagasta,EficienciaMalo,8375,12.77,20.39,28.00,low,Agosto
+Plaza Antofagasta,SalesPRegular,8934,11.18,16.97,23.00,medium,Septiembre
+Plaza Antofagasta,ConversionRegular,8934,11.18,16.97,23.00,medium,Septiembre
+Plaza Antofagasta,StarRegular,8934,11.18,16.97,23.00,medium,Septiembre
+Plaza Antofagasta,EficienciaMalo,8934,11.18,16.97,23.00,low,Septiembre
+Plaza Antofagasta,SalesPRegular,9269,11.03,14.02,17.00,medium,Octubre
+Plaza Antofagasta,ConversionRegular,9269,11.03,14.02,17.00,medium,Octubre
+Plaza Antofagasta,StarRegular,9269,11.03,14.02,17.00,medium,Octubre
+Plaza Antofagasta,EficienciaRegular,9269,11.03,14.02,17.00,medium,Octubre

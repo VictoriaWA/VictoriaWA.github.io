@@ -1,0 +1,23 @@
+[
+  {
+    "title":"Sales Productivity",
+    "subtitle":"Sales / Traffic [CLP]",
+    "ranges":[10622,19244,26000],
+    "measures":[1706],
+    "markers":[0]
+  },
+  {
+    "title":"Sales Conversion",
+    "subtitle":"Vouchers / Traffic [%]",
+    "ranges":[10.93,19.10,30],
+    "measures":[22.91],
+    "markers":[0]
+  },
+  {
+    "title":"Staff Availability",
+    "subtitle":"Working Hours / Traffic [%]",
+    "ranges":[11.36,24.55,50],
+    "measures":[14.12],
+    "markers":[44.86]
+  }
+]
