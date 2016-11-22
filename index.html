@@ -82,9 +82,24 @@
             <p></p>
           </div>
           <div id="comunas-casen">
+              <div class="row " style="margin-top: 20px;">
+                <div class="col-sm-6">
+                    &nbsp;
+                </div>
+                <div class="col-sm-2">
+                  <h4><b>BAJO  </b><a data-toggle="tooltip" class="tooltipLink" data-original-title="El nivel del indicador es preocupante ya que está bajo el nivel normal." data-placement="right"><span class="glyphicon glyphicon-info-sign" style="font-size:15px"></span></a></h4>
+                </div>
+
+                <div class="col-sm-2">
+                  <h4><b>REGULAR  </b><a data-toggle="tooltip" class="tooltipLink" data-original-title="El nivel del indicador está dentro del nivel normal." data-placement="right"><span class="glyphicon glyphicon-info-sign" style="font-size:15px"></span></a></h4>
+                </div>
+
+                <div class="col-sm-2">
+                  <h4><b>ALTO  </b><a data-toggle="tooltip" class="tooltipLink" data-original-title="El nivel del indicador es destacable ya que está sobre el nivel normal." data-placement="right"><span class="glyphicon glyphicon-info-sign" style="font-size:15px"></span></a></h4>
+                </div>
+              </div>
               <div id="comunas-barras" class="pull-right"></div>
               <div id="comunas-texto" style="margin-left: 30px; margin-top: 20px;">
-                <p>&nbsp;</p>
                 <p>&nbsp;</p>
                 <ul class="list-unstyled">
                 <li><code>Sales Productivity [SalesP]</code>: <b>Ventas/Tráfico</b> - Mide que tan productiva fue la tienda con respecto a su volumen de clientes.</li>
@@ -145,6 +160,10 @@
     </div> <!-- /container -->
 
     <script type="text/javascript">
+    //tooltips
+    $("a.tooltipLink").tooltip();
+
+
     d3.csv('data/datos5.csv', function (error, data) {
 
     var width = 600, height = 550;
@@ -202,33 +221,33 @@
     var maxRadius = d3.max(_.pluck(data, 'radius'));
 
     var jun_centers = {
-                  "SalesPMalo": { name: "BAJO" , x: 75, y: 75 },
-                  "SalesPRegular": { name: "REGULAR" , x: 275, y: 75 },
-                  "SalesPBueno": { name: "ALTO" , x: 475, y: 75 },
-                  "ConversionMalo": { name: "" , x: 75, y: 205 },
-                  "ConversionRegular": { name: "" , x: 275, y: 205 },
-                  "ConversionBueno": { name: "" , x: 475, y: 205 },
-                  "StarMalo": { name: "" , x: 75, y: 335 },
-                  "StarRegular": { name: "" , x: 275, y: 335 },
-                  "StarBueno": { name: "" , x: 475, y: 335 },
-                  "EficienciaMalo": { name: "" , x: 75, y: 465 },
-                  "EficienciaRegular": { name: "" , x: 275, y: 465 },
-                  "EficienciaBueno": { name: "" , x: 475, y: 465 }
+                  "SalesPMalo": { name: "" , x: 110, y: 75 },
+                  "SalesPRegular": { name: "" , x: 300, y: 75 },
+                  "SalesPBueno": { name: "" , x: 480, y: 75 },
+                  "ConversionMalo": { name: "" , x: 110, y: 205 },
+                  "ConversionRegular": { name: "" , x: 300, y: 205 },
+                  "ConversionBueno": { name: "" , x: 480, y: 205 },
+                  "StarMalo": { name: "" , x: 110, y: 335 },
+                  "StarRegular": { name: "" , x: 300, y: 335 },
+                  "StarBueno": { name: "" , x: 480, y: 335 },
+                  "EficienciaMalo": { name: "" , x: 110, y: 465 },
+                  "EficienciaRegular": { name: "" , x: 300, y: 465 },
+                  "EficienciaBueno": { name: "" , x: 480, y: 465 }
         }
 
     var jul_centers = {
-      "SalesPMalo": { name: "BAJO" , x: 75, y: 75 },
-      "SalesPRegular": { name: "REGULAR" , x: 275, y: 75 },
-      "SalesPBueno": { name: "ALTO" , x: 475, y: 75 },
-      "ConversionMalo": { name: "" , x: 75, y: 205 },
-      "ConversionRegular": { name: "" , x: 275, y: 205 },
-      "ConversionBueno": { name: "" , x: 475, y: 205 },
-      "StarMalo": { name: "" , x: 75, y: 335 },
-      "StarRegular": { name: "" , x: 275, y: 335 },
-      "StarBueno": { name: "" , x: 475, y: 335 },
-      "EficienciaMalo": { name: "" , x: 75, y: 465 },
-      "EficienciaRegular": { name: "" , x: 275, y: 465 },
-      "EficienciaBueno": { name: "" , x: 475, y: 465 }
+      "SalesPMalo": { name: "" , x: 110, y: 75 },
+      "SalesPRegular": { name: "" , x: 300, y: 75 },
+      "SalesPBueno": { name: "" , x: 480, y: 75 },
+      "ConversionMalo": { name: "" , x: 110, y: 205 },
+      "ConversionRegular": { name: "" , x: 300, y: 205 },
+      "ConversionBueno": { name: "" , x: 480, y: 205 },
+      "StarMalo": { name: "" , x: 110, y: 335 },
+      "StarRegular": { name: "" , x: 300, y: 335 },
+      "StarBueno": { name: "" , x: 480, y: 335 },
+      "EficienciaMalo": { name: "" , x: 110, y: 465 },
+      "EficienciaRegular": { name: "" , x: 300, y: 465 },
+      "EficienciaBueno": { name: "" , x: 480, y: 465 }
         }
 
     var nodes = svg.selectAll("circle")
