@@ -103,20 +103,21 @@
                 <p>&nbsp;</p>
                 <ul class="list-unstyled">
                 <li><code>Sales Productivity [SalesP]</code>: <b>Ventas/Tráfico</b> - Mide que tan productiva fue la tienda con respecto a su volumen de clientes.</li>
-                <li>&nbsp;</li>
+                <li><b>Niveles: Bajo</b> < 7338 | <b>Alto</b> > 17097</li>
                 <li>&nbsp;</li>
                 <li>&nbsp;</li>
                 <li>&nbsp;</li>
                 <li><code>Conversion [Conv]</code>: <b>Nº Boletas/Tráfico</b> - Caracteriza cuántos clientes realizaron compras, midiendo la eficiencia de los vendedores.</li>
-                <li>&nbsp;</li>
+                <li><b>Niveles: Bajo</b> < 10.55 | <b>Alto</b> > 15.93</li>
                 <li>&nbsp;</li>
                 <li>&nbsp;</li>
                 <li>&nbsp;</li>
                 <li><code>Staff Availability [STAR]</code>: <b>Horas Hombre/Tráfico</b> - Caracteriza cuántos vendedores estaban disponibles respecto al número de clientes, midiendo que tán óptima es la dotación presente.</li>
-                <li>&nbsp;</li>
+                <li><b>Niveles: Bajo</b> < 12.45 | <b>Alto</b> > 20.79</li>
                 <li>&nbsp;</li>
                 <li>&nbsp;</li>
                 <li><code>Labor Cost [Cost]</code>: <b>Productividad Costo/Productividad Venta</b> - Mide que tan eficiente en términos de costos fue cada tienda.</li>
+                <li><b>Niveles: Bajo</b> > 22.21 | <b>Alto</b> < 8.36</li>
                 </ul>
               </div>
               <div class="clearfix"></div>
@@ -143,10 +144,10 @@
             <p>&nbsp;</p>
             <p>&nbsp;</p>
             <div id="area0"></div>
-            <div id="area1" style="float: left; width: 534px;"><h3 style="text-align: center;">Semana</h3><h4 style="text-align: center;">Tarde</h4></div>
-            <div id="area2" style="float: right; width: 534px;"><h3 style="text-align: center;">Fin de Semana</h3><h4 style="text-align: center;">Tarde</h4></div>
-            <div id="area3" style="float: left; width: 534px;"><h4 style="text-align: center;">Mañana</h4></div>
-            <div id="area4" style="float: right; width: 534px;"><h4 style="text-align: center;">Mañana</h4></div>
+            <div id="area2" style="float: left; width: 534px;"><h3 style="text-align: center;">Semana</h3><h4 style="text-align: center;">Tarde</h4></div>
+            <div id="area4" style="float: right; width: 534px;"><h3 style="text-align: center;">Fin de Semana</h3><h4 style="text-align: center;">Tarde</h4></div>
+            <div id="area1" style="float: left; width: 534px;"><h4 style="text-align: center;">Mañana</h4></div>
+            <div id="area3" style="float: right; width: 534px;"><h4 style="text-align: center;">Mañana</h4></div>
               <div class="clearfix"></div>
           </div>
           <p>&nbsp;</p>
@@ -391,39 +392,24 @@
         if(value == "Junio"){
           config_month = "JUN_";
         }
-        else {
+        else if(value == "Julio"){
           config_month = "JUL_";
+        }
+        else if(value == "Agosto"){
+          config_month = "AGO_";
+        }
+        else if(value == "Septiembre"){
+          config_month = "SEP_";
+        }
+        else{
+          config_month = "OCT_";
         }
         config_name = config_store + config_month;
         updateData(config_name);
       });
   d3.select('#slider13').call(essai2);
 
-  d3.csv('data/datos5.csv', function (error, data) {
-  var nest = d3.nest()
-    .key(function(d) { return d.Store;})
-    .entries(data);
 
-    var option = d3.select('#select-stores').selectAll('option')
-      .data(nest.sort(function(a, b) { return d3.ascending(a.key, b.key); }));
-    option.enter()
-      .append('option')
-      .text(function(d) { return d.key; });
-
-
-      d3.select('#select-stores').on('change', function(e) {
-        if(this.key=="Antofagasta"){
-          config_store = "01_";
-        }
-        else{
-          config_store = "02_";
-        }
-
-        config_name = config_store + config_month;
-
-        updateData(config_name);
-      });
-  });
 
 
 
@@ -468,7 +454,7 @@
       .width(width2)
       .height(height2);
 
-  d3.json("data/"+config_name+"bulletdata2.json", function(error, data) {
+  d3.json("data/"+config_name+"bulletdata1.json", function(error, data) {
     var svg1 = d3.select("#area1").selectAll("svg")
         .data(data)
       .enter().append("svg")
@@ -499,7 +485,7 @@
       .width(width2)
       .height(height2);
 
-  d3.json("data/"+config_name+"bulletdata1.json", function(error, data) {
+  d3.json("data/"+config_name+"bulletdata2.json", function(error, data) {
     var svg1 = d3.select("#area2").selectAll("svg")
         .data(data)
       .enter().append("svg")
@@ -530,7 +516,7 @@
       .width(width2)
       .height(height2);
 
-  d3.json("data/"+config_name+"bulletdata4.json", function(error, data) {
+  d3.json("data/"+config_name+"bulletdata3.json", function(error, data) {
     var svg1 = d3.select("#area3").selectAll("svg")
         .data(data)
       .enter().append("svg")
@@ -561,7 +547,7 @@
       .width(width2)
       .height(height2);
 
-  d3.json("data/"+config_name+"bulletdata3.json", function(error, data) {
+  d3.json("data/"+config_name+"bulletdata4.json", function(error, data) {
     var svg1 = d3.select("#area4").selectAll("svg")
         .data(data)
       .enter().append("svg")
@@ -586,6 +572,69 @@
         .text(function(d) { return d.subtitle; });
 
 
+  });
+
+
+  d3.csv('data/datos6.csv', function (error, data) {
+  var nest = d3.nest()
+    .key(function(d) { return d.Store;})
+    .entries(data);
+
+    var option = d3.select('#select-stores').selectAll('option')
+      .data(nest.sort(function(a, b) { return d3.ascending(a.key, b.key); }));
+    option.enter()
+      .append('option')
+      .text(function(d) { return d.key; });
+
+
+      d3.select('#select-stores').on('change', function(e) {
+        if(this.value=="Antofagasta"){
+          config_store = "01_";
+        }
+        else if(this.value=="Eurocentro"){
+          config_store = "02_";
+        }
+        else if(this.value=="Jumbo Portal Temuco"){
+          config_store = "03_";
+        }
+        else if(this.value=="Jumbo Rancagua"){
+          config_store = "04_";
+        }
+        else if(this.value=="Mall Alto Las Condes II"){
+          config_store = "05_";
+        }
+        else if(this.value=="Mall Arauco Maipu Ii"){
+          config_store = "06_";
+        }
+        else if(this.value=="Mall Costanera"){
+          config_store = "07_";
+        }
+        else if(this.value=="Mall Marina Arauco"){
+          config_store = "08_";
+        }
+        else if(this.value=="Mall Parque Arauco"){
+          config_store = "09_";
+        }
+        else if(this.value=="Mall Plaza El Trebol"){
+          config_store = "10_";
+        }
+        else if(this.value=="Mall Plaza La Serena"){
+          config_store = "11_";
+        }
+        else if(this.value=="Mall Plaza Vespucio"){
+          config_store = "12_";
+        }
+        else if(this.value=="Mall Rancagua"){
+          config_store = "13_";
+        }
+        else{
+          config_store = "14_";
+        }
+
+        config_name = config_store + config_month;
+
+        updateData(config_name);
+      });
   });
 
   function updateData(config_name) {
